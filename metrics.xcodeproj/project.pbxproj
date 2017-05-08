@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF0161E91E19F81700600A85 /* metrics.metal in Sources */ = {isa = PBXBuildFile; fileRef = FF0161E81E19F81600600A85 /* metrics.metal */; };
+		FF286E771E17475C00A63F10 /* DisplayLinkTimeSeriesView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF286E761E17475C00A63F10 /* DisplayLinkTimeSeriesView.m */; };
+		FF403B581E0B07C100A58767 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF403B571E0B07C100A58767 /* AppDelegate.m */; };
+		FF403B5B1E0B07C100A58767 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF403B5A1E0B07C100A58767 /* main.m */; };
+		FF403B5D1E0B07C100A58767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF403B5C1E0B07C100A58767 /* Assets.xcassets */; };
+		FF403B601E0B07C100A58767 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF403B5E1E0B07C100A58767 /* MainMenu.xib */; };
+		FF403B691E0B07E400A58767 /* DrawRectTimeSeriesView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF403B681E0B07E400A58767 /* DrawRectTimeSeriesView.m */; };
+		FF403B6C1E0B19FA00A58767 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF403B6B1E0B19FA00A58767 /* AppKit.framework */; };
+		FF403B711E0B4B4200A58767 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF403B6F1E0B1A4000A58767 /* CoreVideo.framework */; };
+		FF9A97861E142FEC004F9E25 /* RATilingBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9A97841E142FEC004F9E25 /* RATilingBackgroundView.m */; };
+		FF9A97891E143C7E004F9E25 /* DummyView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9A97881E143C7E004F9E25 /* DummyView.m */; };
+		FF9EC12E1E17696B00908F23 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9EC12D1E17696B00908F23 /* Accelerate.framework */; };
+		FF9EC12F1E1779A700908F23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF403B6D1E0B1A0200A58767 /* QuartzCore.framework */; };
+		FF9EC1321E17925C00908F23 /* DoubleLayerTimeSeriesView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9EC1311E17925C00908F23 /* DoubleLayerTimeSeriesView.m */; };
+		FFA339FA1E19AD920023C720 /* MetalTimeSeriesView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA339F91E19AD920023C720 /* MetalTimeSeriesView.m */; };
+		FFADEFBE1E1995A000AADD47 /* MultiLayerTimeSeriesView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFADEFBD1E1995A000AADD47 /* MultiLayerTimeSeriesView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF0161E81E19F81600600A85 /* metrics.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = metrics.metal; sourceTree = "<group>"; };
+		FF286E751E17475C00A63F10 /* DisplayLinkTimeSeriesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayLinkTimeSeriesView.h; sourceTree = "<group>"; };
+		FF286E761E17475C00A63F10 /* DisplayLinkTimeSeriesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayLinkTimeSeriesView.m; sourceTree = "<group>"; };
+		FF403B531E0B07C100A58767 /* metrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF403B561E0B07C100A58767 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF403B571E0B07C100A58767 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF403B5A1E0B07C100A58767 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF403B5C1E0B07C100A58767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF403B5F1E0B07C100A58767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FF403B611E0B07C100A58767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF403B671E0B07E400A58767 /* DrawRectTimeSeriesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRectTimeSeriesView.h; sourceTree = "<group>"; };
+		FF403B681E0B07E400A58767 /* DrawRectTimeSeriesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectTimeSeriesView.m; sourceTree = "<group>"; };
+		FF403B6B1E0B19FA00A58767 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FF403B6D1E0B1A0200A58767 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FF403B6F1E0B1A4000A58767 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		FF9A97831E142FEC004F9E25 /* RATilingBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATilingBackgroundView.h; sourceTree = "<group>"; };
+		FF9A97841E142FEC004F9E25 /* RATilingBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATilingBackgroundView.m; sourceTree = "<group>"; };
+		FF9A97851E142FEC004F9E25 /* RATilingBackgroundViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATilingBackgroundViewDelegate.h; sourceTree = "<group>"; };
+		FF9A97871E143C7E004F9E25 /* DummyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummyView.h; sourceTree = "<group>"; };
+		FF9A97881E143C7E004F9E25 /* DummyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DummyView.m; sourceTree = "<group>"; };
+		FF9EC12D1E17696B00908F23 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FF9EC1301E17925C00908F23 /* DoubleLayerTimeSeriesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DoubleLayerTimeSeriesView.h; path = Assets.xcassets/DoubleLayerTimeSeriesView.h; sourceTree = "<group>"; };
+		FF9EC1311E17925C00908F23 /* DoubleLayerTimeSeriesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DoubleLayerTimeSeriesView.m; path = Assets.xcassets/DoubleLayerTimeSeriesView.m; sourceTree = "<group>"; };
+		FFA339F81E19AD920023C720 /* MetalTimeSeriesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalTimeSeriesView.h; sourceTree = "<group>"; };
+		FFA339F91E19AD920023C720 /* MetalTimeSeriesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetalTimeSeriesView.m; sourceTree = "<group>"; };
+		FFADEFBC1E1995A000AADD47 /* MultiLayerTimeSeriesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiLayerTimeSeriesView.h; sourceTree = "<group>"; };
+		FFADEFBD1E1995A000AADD47 /* MultiLayerTimeSeriesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiLayerTimeSeriesView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF403B501E0B07C100A58767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9EC12F1E1779A700908F23 /* QuartzCore.framework in Frameworks */,
+				FF9EC12E1E17696B00908F23 /* Accelerate.framework in Frameworks */,
+				FF403B6C1E0B19FA00A58767 /* AppKit.framework in Frameworks */,
+				FF403B711E0B4B4200A58767 /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF403B4A1E0B07C100A58767 = {
+			isa = PBXGroup;
+			children = (
+				FF0161E81E19F81600600A85 /* metrics.metal */,
+				FF403B551E0B07C100A58767 /* metrics */,
+				FF403B541E0B07C100A58767 /* Products */,
+				FF403B6A1E0B19FA00A58767 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF403B541E0B07C100A58767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF403B531E0B07C100A58767 /* metrics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF403B551E0B07C100A58767 /* metrics */ = {
+			isa = PBXGroup;
+			children = (
+				FF403B561E0B07C100A58767 /* AppDelegate.h */,
+				FF403B571E0B07C100A58767 /* AppDelegate.m */,
+				FF9A97871E143C7E004F9E25 /* DummyView.h */,
+				FF9A97881E143C7E004F9E25 /* DummyView.m */,
+				FF403B671E0B07E400A58767 /* DrawRectTimeSeriesView.h */,
+				FF403B681E0B07E400A58767 /* DrawRectTimeSeriesView.m */,
+				FF286E751E17475C00A63F10 /* DisplayLinkTimeSeriesView.h */,
+				FF286E761E17475C00A63F10 /* DisplayLinkTimeSeriesView.m */,
+				FF9EC1301E17925C00908F23 /* DoubleLayerTimeSeriesView.h */,
+				FF9EC1311E17925C00908F23 /* DoubleLayerTimeSeriesView.m */,
+				FFADEFBC1E1995A000AADD47 /* MultiLayerTimeSeriesView.h */,
+				FFADEFBD1E1995A000AADD47 /* MultiLayerTimeSeriesView.m */,
+				FFA339F81E19AD920023C720 /* MetalTimeSeriesView.h */,
+				FFA339F91E19AD920023C720 /* MetalTimeSeriesView.m */,
+				FF9A97831E142FEC004F9E25 /* RATilingBackgroundView.h */,
+				FF9A97841E142FEC004F9E25 /* RATilingBackgroundView.m */,
+				FF9A97851E142FEC004F9E25 /* RATilingBackgroundViewDelegate.h */,
+				FF403B5C1E0B07C100A58767 /* Assets.xcassets */,
+				FF403B5E1E0B07C100A58767 /* MainMenu.xib */,
+				FF403B611E0B07C100A58767 /* Info.plist */,
+				FF403B591E0B07C100A58767 /* Supporting Files */,
+			);
+			path = metrics;
+			sourceTree = "<group>";
+		};
+		FF403B591E0B07C100A58767 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF403B5A1E0B07C100A58767 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF403B6A1E0B19FA00A58767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF9EC12D1E17696B00908F23 /* Accelerate.framework */,
+				FF403B6F1E0B1A4000A58767 /* CoreVideo.framework */,
+				FF403B6D1E0B1A0200A58767 /* QuartzCore.framework */,
+				FF403B6B1E0B19FA00A58767 /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF403B521E0B07C100A58767 /* metrics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF403B641E0B07C100A58767 /* Build configuration list for PBXNativeTarget "metrics" */;
+			buildPhases = (
+				FF403B4F1E0B07C100A58767 /* Sources */,
+				FF403B501E0B07C100A58767 /* Frameworks */,
+				FF403B511E0B07C100A58767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = metrics;
+			productName = metrics;
+			productReference = FF403B531E0B07C100A58767 /* metrics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF403B4B1E0B07C100A58767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Radius Development";
+				TargetAttributes = {
+					FF403B521E0B07C100A58767 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = CDTGQDFDBU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF403B4E1E0B07C100A58767 /* Build configuration list for PBXProject "metrics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF403B4A1E0B07C100A58767;
+			productRefGroup = FF403B541E0B07C100A58767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF403B521E0B07C100A58767 /* metrics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF403B511E0B07C100A58767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF403B5D1E0B07C100A58767 /* Assets.xcassets in Resources */,
+				FF403B601E0B07C100A58767 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF403B4F1E0B07C100A58767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9A97861E142FEC004F9E25 /* RATilingBackgroundView.m in Sources */,
+				FF0161E91E19F81700600A85 /* metrics.metal in Sources */,
+				FF403B5B1E0B07C100A58767 /* main.m in Sources */,
+				FFADEFBE1E1995A000AADD47 /* MultiLayerTimeSeriesView.m in Sources */,
+				FF403B691E0B07E400A58767 /* DrawRectTimeSeriesView.m in Sources */,
+				FF286E771E17475C00A63F10 /* DisplayLinkTimeSeriesView.m in Sources */,
+				FF9EC1321E17925C00908F23 /* DoubleLayerTimeSeriesView.m in Sources */,
+				FFA339FA1E19AD920023C720 /* MetalTimeSeriesView.m in Sources */,
+				FF403B581E0B07C100A58767 /* AppDelegate.m in Sources */,
+				FF9A97891E143C7E004F9E25 /* DummyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF403B5E1E0B07C100A58767 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF403B5F1E0B07C100A58767 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF403B621E0B07C100A58767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FF403B631E0B07C100A58767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FF403B651E0B07C100A58767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CDTGQDFDBU;
+				INFOPLIST_FILE = metrics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.radius.metrics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		FF403B661E0B07C100A58767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CDTGQDFDBU;
+				INFOPLIST_FILE = metrics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.radius.metrics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF403B4E1E0B07C100A58767 /* Build configuration list for PBXProject "metrics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF403B621E0B07C100A58767 /* Debug */,
+				FF403B631E0B07C100A58767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF403B641E0B07C100A58767 /* Build configuration list for PBXNativeTarget "metrics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF403B651E0B07C100A58767 /* Debug */,
+				FF403B661E0B07C100A58767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF403B4B1E0B07C100A58767 /* Project object */;
+}
