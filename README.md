@@ -40,7 +40,7 @@ Obviously they are all inferior to the Metal approach:
 
 Also included:
 
-* `RATilingBackgroundView` — A very simple tiling view I have written ages ago (available from GitHub too), which fills a larger NSView with many small views. This is useful when stress-testing the implementation: you can full an entire screen with many charts, and look for any kind of performance degradation or timing error.
+* `RATilingBackgroundView` — A very simple tiling view I have written ages ago (available from GitHub too), which fills a larger NSView with many small views. This is useful when stress-testing the implementation: you can fill an entire screen with many charts, and look for any kind of performance degradation or timing error.
 
 ## Pictures
 
